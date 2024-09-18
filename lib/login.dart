@@ -23,7 +23,7 @@ class _LoginState extends State<Login> {
             width: size.width,
             height: size.height,
             color: con.fondo2,
-          ),
+          ), ///Fondo
           Padding(
             padding: const EdgeInsets.all(0.0),
             child: Column(
@@ -54,7 +54,7 @@ class _LoginState extends State<Login> {
                 ),
               ],
             ),
-          ),
+          ), ///Fondo de Contenedores
           Align(
             alignment: Alignment.center,
             child: Container(
@@ -132,6 +132,7 @@ class _LoginState extends State<Login> {
                       mensajeError,
                       style: TextStyle(
                         color: Colors.red, fontWeight: FontWeight.bold,
+                        fontSize: 15,
                       ),
                     ), ///Mensaje de Error
                   ElevatedButton(
@@ -168,7 +169,7 @@ class _LoginState extends State<Login> {
                 ],
               ),
             ),
-          )
+          ) ///Formulario
         ],
       ),
     );
@@ -190,28 +191,6 @@ class _LoginState extends State<Login> {
         Navigator.push(context, MaterialPageRoute(builder: (context)=>Home()));
       }
     });
-  }
-
-  void showSnackBar(String texto, int duracion)
-  {
-    ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text(
-            texto,
-            textAlign: TextAlign.center,
-          ),
-          duration: Duration(seconds: duracion),
-          behavior: SnackBarBehavior.floating,
-          margin: EdgeInsets.only(
-            top: 50, // Espacio desde la parte superior
-            left: 60,
-            right: 60,
-          ),
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(20),
-          ),
-        ),
-    );
   }
 }
 

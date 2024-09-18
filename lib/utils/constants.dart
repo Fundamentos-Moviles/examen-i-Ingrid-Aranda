@@ -19,16 +19,16 @@ const efectos = Color(0xff919b02);
 
 const List listaExamen = [
   ///‘id#numero#titulo#descripcion#numdeestrellasenamarillo’,
-  '1#1#Comprar pastel#Pasar a la pastelería para comprar un pastel de chocolate#2'
-  '2#2#Renovar Locker#Llenar el formulario antes del Jueves a las 12pm#3'
-  '3#3#Instalar ODL#Revisar el manual que esta en los archivos de Teams#4'
-  '4#4#Ejercicio de Web#Subir a la carpeta en Teams antes del examen#5'
-  '5#5#Terminar tarea de Seminario#Revisar contenido y agregar portada#3'
-  '6#6#Propuesta de Proyecto#Revisar especificaciones#2'
-  '7#7#Practica Administracion de Redes#Agregar fotografias de la practica fisica#1'
-  '8#8#Mapa mental Administracion de Proyectos#El mapa mental sera con el contenido de todo el parcial#4'
-  '9#9#Comprar pastel#Pasar a la pastelería para comprar un pastel de chocolate#3'
-  '10#10#Practicar VLSM#El examen tendra un ejercicio#2'
-  '11#11#Agenda#Organizar actividades de la semana#2'
-  '12#12#Examen Administracion de Redes#Estudiar diapositivas y hacer el examen de practica en NetAcad#3'
+  '1#1#Comprar pastel#Pasar a la pastelería para comprar un pastel de chocolate#2',
+  '2#2#Renovar Locker#Llenar el formulario antes del Jueves a las 12pm#3',
+  '3#3#Instalar ODL#Revisar el manual que esta en los archivos de Teams#4',
+  '4#4#Ejercicio de Web#Subir a la carpeta en Teams antes del examen#5',
+  '5#5#Terminar tarea de Seminario#Revisar contenido y agregar portada#3',
+  '6#6#Propuesta de Proyecto#Revisar especificaciones#2#2',
+  '7#7#Practica Administracion de Redes#Agregar fotografias de la practica fisica#1',
+  '8#8#Mapa mental Administracion de Proyectos#El mapa mental sera con el contenido de todo el parcial#4',
+  '9#9#Comprar pastel#Pasar a la pastelería para comprar un pastel de chocolate#3',
+  '10#10#Practicar VLSM#El examen tendra un ejercicio#2',
+  '11#11#Agenda#Organizar actividades de la semana#2',
+  '12#12#Examen Administracion de Redes#Estudiar diapositivas y hacer el examen de practica en NetAcad#3',
 ];
