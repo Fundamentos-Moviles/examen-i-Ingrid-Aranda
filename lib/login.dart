@@ -131,7 +131,7 @@ class _LoginState extends State<Login> {
                     Text(
                       mensajeError,
                       style: TextStyle(
-                        color: Colors.red, fontWeight: FontWeight.bold,
+                        color: con.mensajeError, fontWeight: FontWeight.bold,
                         fontSize: 15,
                       ),
                     ), ///Mensaje de Error
@@ -152,7 +152,7 @@ class _LoginState extends State<Login> {
                         Text(
                           'Iniciar Sesión',
                           style: TextStyle(
-                            color: Colors.white,
+                            color: con.text,
                           ),
 
                         )
@@ -163,7 +163,7 @@ class _LoginState extends State<Login> {
                   Text(
                     'Mi primer examen, ¿estará sencillo?',
                     style: TextStyle(
-                      color: Colors.white,
+                      color: con.text,
                     ),
                   )
                 ],
